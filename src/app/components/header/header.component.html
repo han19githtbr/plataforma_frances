@@ -1,0 +1,35 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-menu" id="home">
+  <a class="navbar-brand" routerLink="" routerLinkActive="active">
+    <!--<img src="../../../assets/cea_11.png">-->
+    <h2>LOGO</h2>
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/home" fragment="home" routerLinkActive="active">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/nosso-proposito" fragment="nosso-proposito" routerLinkActive="active">Nosso propósito</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/conteudo" fragment="conteudo" routerLinkActive="active">Conteúdo</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/nossa-equipe" fragment="nossa-equipe" routerLinkActive="active">Nossa equipe</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" fragment="contato" routerLink="/contato" routerLinkActive="active">Contato</a>
+      </li>
+
+      <li class="nav-item" routerLink="/login" routerLinkActive="active">
+        <a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModalCenter"><i class="fa fa-user-circle"></i> Entrar</a>
+      </li>
+      <li class="nav-item" routerLink="/cadastro" routerLinkActive="active">
+        <button class="btn btn-outline-success loginButton" type="button">Cadastre-se</button>
+      </li>
+    </ul>
+  </div>
+</nav>

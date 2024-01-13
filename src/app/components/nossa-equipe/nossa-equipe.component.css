@@ -1,0 +1,50 @@
+.title-content {
+  margin-top: 8rem;
+  text-align: center;
+}
+
+.title-content h1 {
+  font-weight: bold;
+}
+
+.card {
+  border: none;
+  margin-top: 2rem;
+  width: 18rem;
+}
+
+.card img {
+  border-radius: 50%;
+  height: 280px;
+}
+
+.container-card {
+  display: flex;
+  justify-content: center;
+  gap: 6rem;
+}
+
+.card-text {
+  font-weight: bold;
+  text-align: center;
+}
+
+
+@media screen and (max-width: 1200px) {
+  .card {
+    border: none;
+    margin-top: 2rem;
+    //width: 30rem;
+  }
+
+  .card img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+  }
+
+  .container-card {
+    gap: 1rem;
+  }
+
+}

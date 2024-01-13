@@ -1,0 +1,73 @@
+.footer-content {
+  margin-top: 5rem;
+  background-color: #000;
+  height: 250px;
+  overflow: hidden;
+}
+
+.title-content {
+  text-align: center;
+  padding-top: 2rem;
+  //display: flex;
+}
+
+.title-content h1 {
+  font-weight: bold;
+  color: white;
+}
+
+.title-content p {
+  color: gray;
+}
+
+.mail p {
+  font-style: italic;
+  font-family: 'Times New Roman';
+}
+
+.nav-link {
+  color: white;
+}
+
+.contato-direto {
+  text-align: left;
+  margin-left: 4rem;
+  margin-top: 2rem;
+}
+
+.redes_icons_container {
+  text-align: right;
+  margin-top: -8rem;
+  display: flex;
+  justify-content: right;
+  margin-right: 2rem;
+}
+
+.redes_icons_container p {
+  color: gray;
+  font-style: italic;
+  font-family: 'Times New Roman';
+  margin-right: -3.4rem;
+}
+
+.redes_icons {
+  margin-right: 2rem;
+  padding-top: 2rem;
+
+}
+
+.fa-whatsapp {
+  color: #15c834;
+}
+
+.fa-envelope {
+  color: #c0c0c0;
+}
+
+.fa-facebook {
+  color: #0d24f4;
+}
+
+.fa-instagram {
+  color: #f80ce6
+}

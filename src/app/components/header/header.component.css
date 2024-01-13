@@ -1,0 +1,13 @@
+.bg-menu{
+  //background-color: rgb(3, 26, 67);
+  background-color: #00002d;
+}
+
+.nav-item{
+  padding: 0 15px;
+}
+
+.loginButton{
+  outline: 0;
+}
+

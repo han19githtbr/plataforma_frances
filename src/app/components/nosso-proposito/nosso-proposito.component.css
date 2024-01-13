@@ -1,0 +1,17 @@
+.card {
+  margin-top: 3rem;
+  border: none;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-body h1 {
+  font-weight: bold;
+}
+
+.card-body p {
+  text-align: justify;
+  text-align: center;
+}
